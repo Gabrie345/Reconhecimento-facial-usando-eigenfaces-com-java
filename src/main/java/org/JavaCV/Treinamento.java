@@ -19,6 +19,7 @@ public class Treinamento {
         System.out.println("Treinamento");
         File diretorio = new File("src\\fotos");
         FilenameFilter filenameFilter = new FilenameFilter() {
+
             @Override
             public boolean accept(File dir, String name) {
                 return name.endsWith(".jpg") ||

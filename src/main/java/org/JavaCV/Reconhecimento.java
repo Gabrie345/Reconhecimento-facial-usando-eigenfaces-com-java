@@ -31,7 +31,6 @@ public class Reconhecimento {
         int numerodeAmostra = 30;
         int amostra = 1;
 
-
         FaceRecognizer reconhecedor = EigenFaceRecognizer.create();
         reconhecedor.read("src\\recursos\\classificadorEigenFaces.yml");
 
